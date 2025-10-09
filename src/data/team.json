@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Ahmed Hassan",
+    "role": "CEO & Founder",
+    "bio": "15+ years in cybersecurity with expertise in threat intelligence and risk management. PhD in Computer Security from Cairo University.",
+    "image": "/placeholder.svg",
+    "linkedin": "https://linkedin.com/in/example",
+    "email": "ahmed.hassan@delta-cyber.com"
+  },
+  {
+    "id": "2",
+    "name": "Sarah Mohammed",
+    "role": "CTO",
+    "bio": "Former security architect at Fortune 500 companies. Specializes in cloud security and zero-trust architectures.",
+    "image": "/placeholder.svg",
+    "linkedin": "https://linkedin.com/in/example",
+    "email": "sarah.mohammed@delta-cyber.com"
+  },
+  {
+    "id": "3",
+    "name": "Omar Kamal",
+    "role": "Head of Training & Education",
+    "bio": "Certified ethical hacker and educator. Passionate about bridging the cybersecurity skills gap through innovative training programs.",
+    "image": "/placeholder.svg",
+    "linkedin": "https://linkedin.com/in/example",
+    "email": "omar.kamal@delta-cyber.com"
+  },
+  {
+    "id": "4",
+    "name": "Layla Ibrahim",
+    "role": "Senior Security Analyst",
+    "bio": "Penetration testing specialist with focus on web application security and vulnerability assessment. OSCP certified.",
+    "image": "/placeholder.svg",
+    "linkedin": "https://linkedin.com/in/example",
+    "email": "layla.ibrahim@delta-cyber.com"
+  }
+]

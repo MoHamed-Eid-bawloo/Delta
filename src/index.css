@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cybersecurity Design System - Black/White dominant with Green accent */
+
+@layer base {
+  :root {
+    /* Core palette - Black, White, Green accent */
+    --background: 0 0% 0%; /* Black */
+    --foreground: 0 0% 100%; /* White */
+
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 116 100% 9%; /* Green #032c00 */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 116 100% 9%; /* Green accent */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 116 100% 9%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --hero-gradient-start: 116 100% 9%;
+    --hero-gradient-mid: 116 80% 5%;
+    --hero-gradient-end: 0 0% 0%;
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --shadow-glow: 0 0 40px hsl(var(--primary) / 0.3);
+    --shadow-card: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
+  }
+
+  .light {
+    --background: 0 0% 100%; /* White for light sections */
+    --foreground: 0 0% 0%; /* Black text */
+    
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 0%;
+    
+    --border: 0 0% 85%;
+    --input: 0 0% 85%;
+    
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  /* Hero background animation */
+  @keyframes gradient-shift {
+    0%, 100% { 
+      background-position: 0% 50%; 
+    }
+    50% { 
+      background-position: 100% 50%; 
+    }
+  }
+  
+  @keyframes float {
+    0%, 100% { 
+      transform: translateY(0) translateX(0); 
+    }
+    33% { 
+      transform: translateY(-20px) translateX(10px); 
+    }
+    66% { 
+      transform: translateY(10px) translateX(-10px); 
+    }
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% { 
+      opacity: 0.3; 
+    }
+    50% { 
+      opacity: 0.6; 
+    }
+  }
+
+  .hero-gradient {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--background)),
+      hsl(var(--hero-gradient-mid)),
+      hsl(var(--hero-gradient-start))
+    );
+    background-size: 200% 200%;
+    animation: gradient-shift 15s ease infinite;
+  }
+  
+  .card-hover {
+    transition: var(--transition-smooth);
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .text-gradient {
+    background: linear-gradient(
+      90deg,
+      hsl(var(--foreground)),
+      hsl(var(--primary))
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

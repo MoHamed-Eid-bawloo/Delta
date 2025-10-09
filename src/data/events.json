@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Cybersecurity Awareness Workshop",
+    "date": "2025-11-15T14:00:00",
+    "location": "6th of October University - Tech Hub",
+    "description": "Join us for an interactive workshop covering the latest cybersecurity threats and best practices. Open to all students and faculty.",
+    "university": "6th of October University",
+    "type": "Workshop",
+    "rsvpLink": "#"
+  },
+  {
+    "id": "2",
+    "title": "Penetration Testing Bootcamp",
+    "date": "2025-11-22T10:00:00",
+    "location": "Delta Cybersecurity HQ",
+    "description": "Intensive 2-day bootcamp for aspiring penetration testers. Learn ethical hacking techniques from industry professionals.",
+    "university": "6th of October University",
+    "type": "Bootcamp",
+    "rsvpLink": "#"
+  },
+  {
+    "id": "3",
+    "title": "Network Security Conference 2025",
+    "date": "2025-12-05T09:00:00",
+    "location": "University Convention Center",
+    "description": "Annual conference featuring keynote speakers, panel discussions, and networking opportunities with cybersecurity leaders.",
+    "university": "6th of October University",
+    "type": "Conference",
+    "rsvpLink": "#"
+  }
+]
