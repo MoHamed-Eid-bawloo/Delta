@@ -1,7 +1,7 @@
 export const companyInfo = {
-  name: "Delta Cybersecurity",
+  name: "Delta Security",
   tagline: "Securing Your Digital Future",
-  shortDescription: "Delta Cybersecurity is a specialized cybersecurity firm focusing on offensive and defensive security services. We collaborate with 6th of October University of Technology on research and student events.",
+  shortDescription: "Delta Security is a specialized cybersecurity firm focusing on offensive and defensive security services. We collaborate with 6th of October University of Technology on research and student events.",
   
   mission: "To provide world-class cybersecurity solutions while nurturing the next generation of security professionals through partnerships with leading educational institutions.",
   
@@ -33,7 +33,7 @@ export const companyInfo = {
   
   universityPartnership: {
     name: "6th of October University of Technology",
-    description: "Delta Cybersecurity maintains a strategic partnership with 6th of October University of Technology, providing students with real-world cybersecurity experience through internships, workshops, and collaborative research projects. Together, we're building Egypt's cybersecurity talent pipeline.",
+    description: "Delta Security maintains a strategic partnership with 6th of October University of Technology, providing students with real-world cybersecurity experience through internships, workshops, and collaborative research projects. Together, we're building Egypt's cybersecurity talent pipeline.",
     established: "2020"
   },
   
