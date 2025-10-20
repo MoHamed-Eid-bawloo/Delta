@@ -16,10 +16,10 @@ const resources = {
       // Hero
       hero: {
         phrases: [
-          "Welcome to Delta Cybersecurity",
+          "Welcome to Delta Security",
           "Securing Your Digital Future",
-          "Delta Cybersecurity — 6th of October University Tech Partner",
-          "Protect. Defend. Educate."
+          "Delta Security — 6th of October University Tech Partner",
+          "Delta. Community. Delta. Change"
         ],
         subtitle: "Leading cybersecurity firm partnering with 6th of October University of Technology",
         cta: {
